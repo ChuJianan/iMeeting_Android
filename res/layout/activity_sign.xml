@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/common_background"
+    android:orientation="vertical" >
+
+    <include layout="@layout/include_common_header" />
+
+    <ImageView
+        android:id="@+id/ad_sign_1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:scaleType="fitXY"
+        android:visibility="gone" />
+
+    <com.qddagu.app.meetreader.widget.PullToRefreshListView
+        android:id="@+id/list"
+        style="@style/widget_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <Button
+        android:id="@+id/sign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:text="正在获取签到信息" />
+
+    <ImageView
+        android:id="@+id/ad_sign_2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:scaleType="fitXY"
+        android:visibility="gone" />
+
+</LinearLayout>

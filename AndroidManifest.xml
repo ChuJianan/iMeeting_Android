@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.qddagu.app.meetreader"
+    android:versionCode="12"
+    android:versionName="1.4.3" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+     <permission android:name="android.permission.BAIDU_LOCATION_SERVICE" >
+    </permission>
+
+    <uses-permission android:name="android.permission.BAIDU_LOCATION_SERVICE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" >
+    </uses-permission>
+    <!-- <uses-permission android:name="android.permission.WRITE_APN_SETTINGS"></uses-permission> -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" >
+    </uses-permission>
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_GPS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <!-- SDK1.5需要android.permission.GET_TASKS权限判断本程序是否为当前运行的应用? -->
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.CAMERA" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.RECORD_AUDIO" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <!-- 来电消音 -->
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:name="com.qddagu.app.meetreader.AppContext"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.qddagu.app.meetreader.AppStart"
+            android:configChanges="orientation|keyboard|screenSize"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.MainActivity"
+            android:configChanges="orientation|keyboard|screenSize"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".ui.MeetingActivity"
+            android:configChanges="orientation|keyboard|screenSize"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".ui.MtInfoActivity"
+            android:configChanges="orientation|keyboard|screenSize"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".ui.FavoriteActivity"
+            android:configChanges="orientation|keyboard|screenSize"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".ui.AgendaActivity"
+            android:configChanges="orientation|keyboard|screenSize"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".ui.GuestsActivity"
+            android:configChanges="orientation|keyboard|screenSize"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".ui.GuestActivity"
+            android:configChanges="orientation|keyboard|screenSize"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".ui.CardWallActivity"
+            android:configChanges="orientation|keyboard|screenSize"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".ui.CardActivity"
+            android:configChanges="orientation|keyboard|screenSize"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".ui.UserActivity"
+            android:configChanges="orientation|keyboard|screenSize"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".ui.SignActivity"
+            android:configChanges="orientation|keyboard|screenSize"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".ui.JoinActivity"
+            android:configChanges="orientation|keyboard|screenSize"
+            android:launchMode="singleTask"
+            android:theme="@style/Theme.Transparent" />
+        <activity
+            android:name=".ui.FilesActivity"
+            android:configChanges="orientation|keyboard|screenSize"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".ui.ReaderActivity"
+            android:configChanges="orientation|keyboard|screenSize"
+            android:launchMode="singleTask"
+            android:uiOptions="splitActionBarWhenNarrow" />
+        <activity
+            android:name=".ui.WpsReaderActivity"
+            android:configChanges="orientation|keyboard|screenSize"
+            android:launchMode="singleTask"
+            android:uiOptions="splitActionBarWhenNarrow" />
+        <activity
+            android:name=".ui.NotesActivity"
+            android:configChanges="orientation|keyboard|screenSize"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".ui.NoteActivity"
+            android:configChanges="orientation|keyboard|screenSize"
+            android:launchMode="singleTop"
+            android:uiOptions="splitActionBarWhenNarrow" />
+        <activity
+            android:name=".ui.CommentsActivity"
+            android:configChanges="orientation|keyboard|screenSize"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".ui.BrowserActivity"
+            android:configChanges="orientation|keyboard|screenSize"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".ui.CommentActivity"
+            android:configChanges="orientation|keyboard|screenSize"
+            android:launchMode="singleTop"
+            android:uiOptions="splitActionBarWhenNarrow" />
+        <activity
+            android:name=".ui.SettingActivity"
+            android:configChanges="orientation|keyboard|screenSize"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".ui.AboutActivity"
+            android:configChanges="orientation|keyboard|screenSize"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.zxing.activity.CaptureActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+        </activity>
+        <activity
+            android:name=".ui.DownloadActivity"
+            android:configChanges="orientation|keyboard|screenSize"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".ui.PeripheryActivity"
+            android:configChanges="orientation|keyboard|screenSize"
+            android:launchMode="singleTask" />
+
+		<activity
+            android:name=".ui.InteractionsActivity"
+            android:configChanges="orientation|keyboard|screenSize"
+            android:launchMode="singleTask" />
+
+		<activity
+            android:name=".ui.InteractionActivity"
+            android:configChanges="orientation|keyboard|screenSize"
+            android:launchMode="singleTask" />
+        <service android:name=".service.DownloadService" />
+<service android:name="com.baidu.location.f" android:enabled="true" android:process=":remote"></service>
+       <activity
+            android:name="com.baidu.mapapi.search.PlaceCaterActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <ACTIVITY android:theme="@android:style/Theme.NoTitleBar" android:configChanges="orientation|keyboardHidden" android:name="com.baidu.mapapi.search.PlaceCaterActivity">   
+  
+</ACTIVITY>
+        <receiver android:name=".ui.ReaderActivity$Receiver" >
+        </receiver>
+    </application>
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="false"
+        android:resizeable="true"
+        android:smallScreens="true" />
+</manifest>

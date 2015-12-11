@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <include
+        android:id="@+id/include1"
+        layout="@layout/include_common_header" />
+
+    <TextView
+        android:id="@+id/empty_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="正在获取互动信息……"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/text_size_24"
+        android:visibility="gone" />
+
+    <com.qddagu.app.meetreader.widget.PullToRefreshListView
+        android:id="@+id/interaction_list_view"
+        style="@style/widget_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/include1" >
+
+    </com.qddagu.app.meetreader.widget.PullToRefreshListView>
+
+</RelativeLayout>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/title_banner"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/section_title_banner_size"
+    android:background="@drawable/bg_common_header" >
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="5dp"
+        android:background="@drawable/bg_btn_head"
+        android:text="返回"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:id="@+id/oper_layout"
+        android:layout_width="70dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true" >
+
+        <Button
+            android:id="@+id/refresh"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:background="@drawable/bg_btn_head"
+            android:text="刷新"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:visibility="gone" />
+        <Button
+            android:id="@+id/interaction"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:background="@drawable/bg_btn_head"
+            android:text="提问"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/comment"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:background="@drawable/bg_btn_head"
+            android:text="评论"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/note"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:background="@drawable/bg_btn_head"
+            android:text="笔记"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/save"
+          android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:background="@drawable/bg_btn_head"
+            android:text="保存"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_toLeftOf="@+id/oper_layout"
+        android:layout_toRightOf="@+id/back"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:paddingLeft="10.0dip"
+            android:paddingRight="10.0dip"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/section_title_text_size" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/shadow_line"
+        android:visibility="gone" />
+
+</RelativeLayout>

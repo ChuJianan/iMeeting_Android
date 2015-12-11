@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffeeeeef"
+    android:orientation="vertical" >
+
+    <include layout="@layout/include_common_header" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="170.0dip"
+            android:background="@drawable/bg_meeting_head" >
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="170.0dip"
+                android:background="@drawable/bg_meeting_head2" />
+
+            <TextView
+                android:id="@+id/meeting_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/meeting_center"
+                android:layout_marginBottom="3.0dip"
+                android:layout_marginLeft="12.0dip"
+                android:layout_marginRight="5.0dip"
+                android:text="2013年中古股权大会是什么什么大会"
+                android:textColor="@color/white"
+                android:textSize="20.0sp"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:id="@+id/meeting_center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/meeting_bottom"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="3.0dip"
+                android:layout_marginLeft="12.0dip"
+                android:layout_marginRight="5.0dip" >
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="11.0dip"
+                    android:layout_height="11.0dip"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_meeting_time" />
+
+                <TextView
+                    android:id="@+id/meeting_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="3.0dip"
+                    android:layout_toRightOf="@id/imageView1"
+                    android:text="TextView"
+                    android:textColor="@color/white"
+                    android:textSize="12.0sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/meeting_bottom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="12.0dip"
+                android:layout_marginLeft="12.0dip"
+                android:layout_marginRight="5.0dip" >
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="11.0dip"
+                    android:layout_height="11.0dip"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_meeting_place" />
+
+                <TextView
+                    android:id="@+id/meeting_place"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="3.0dip"
+                    android:layout_toRightOf="@+id/imageView2"
+                    android:text="TextView"
+                    android:textColor="@color/white"
+                    android:textSize="12.0sp" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <GridView
+            android:id="@+id/icons"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:cacheColorHint="@null"
+            android:gravity="center"
+            android:listSelector="@null"
+            android:numColumns="3"
+            android:scrollbars="none"
+            android:stretchMode="columnWidth" >
+        </GridView>
+    </LinearLayout>
+
+</LinearLayout>

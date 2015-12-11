@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+ <include layout="@layout/include_common_header" />
+
+ <com.baidu.mapapi.map.MapView
+     android:id="@+id/bmapView"
+     android:layout_width="fill_parent"
+     android:layout_height="330dp"
+     android:layout_weight="1.26"
+     android:clickable="true" >
+ </com.baidu.mapapi.map.MapView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/face_bg" >
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_marginLeft="8dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/amusement"
+            android:src="@drawable/bg_line" />
+
+        <TextView
+            android:id="@+id/life"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/imageView3"
+            android:drawableTop="@drawable/ic_life"
+            android:text="生活服务"
+            android:layout_marginLeft="8dp"
+            android:textColor="@color/lightblue"
+            android:textSize="@dimen/text_size_12" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_marginLeft="8dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/life"
+            android:src="@drawable/bg_line" />
+
+        <TextView
+            android:id="@+id/traffic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/imageView4"
+            android:layout_alignParentTop="true"
+            android:drawableTop="@drawable/ic_traffic"
+            android:text="交通设施"
+             android:layout_marginLeft="8dp"
+            android:textColor="@color/lightblue"
+            android:textSize="@dimen/text_size_12" />
+
+        <TextView
+            android:id="@+id/amusement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:drawableTop="@drawable/ic_amusement"
+            android:text="休闲娱乐"
+            android:textColor="@color/lightblue"
+            android:textSize="@dimen/text_size_12" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="12dp"
+            android:layout_toLeftOf="@+id/amusement"
+            android:src="@drawable/bg_line" />
+
+        <TextView
+            android:id="@+id/hotel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="30dp"
+            android:layout_toLeftOf="@+id/amusement"
+            android:drawableTop="@drawable/ic_hotel"
+            android:text="酒店"
+            android:textColor="@color/lightblue"
+            android:textSize="@dimen/text_size_12" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="20dp"
+            android:layout_toLeftOf="@+id/hotel"
+            android:src="@drawable/bg_line" />
+
+        <TextView
+            android:id="@+id/dir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="20dp"
+            android:layout_toLeftOf="@+id/imageView1"
+            android:drawableTop="@drawable/ic_food"
+            android:text="美食"
+            android:textColor="@color/lightblue"
+            android:textSize="@dimen/text_size_12" />
+
+    </RelativeLayout>
+
+</LinearLayout>

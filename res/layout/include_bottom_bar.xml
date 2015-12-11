@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/footerView_ll"
+    android:layout_width="fill_parent"
+    android:layout_height="48.0dip"
+    android:layout_alignParentBottom="true"
+    android:background="@drawable/bg_bottom_bar"
+    android:gravity="bottom"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/btn_home"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1.0"
+        android:background="@drawable/bg_bottom_bar_item"
+        android:drawableTop="@drawable/ic_tab_home"
+        android:text="首页"
+        android:textColor="@color/nav_bar_item_normal"
+        android:textSize="10.0dip" />
+
+    <Button
+        android:id="@+id/btn_cloud"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1.0"
+        android:background="@drawable/bg_bottom_bar_item"
+        android:drawableTop="@drawable/ic_tab_history"
+        android:text="会议云"
+        android:textColor="@color/nav_bar_item_normal"
+        android:textSize="10.0dip" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1.5"
+        android:background="@drawable/bg_bottom_bar_item" />
+
+    <Button
+        android:id="@+id/btn_notice"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1.0"
+        android:background="@drawable/bg_bottom_bar_item"
+        android:drawableTop="@drawable/ic_tab_favorite"
+        android:text="会议预告"
+        android:textColor="@color/nav_bar_item_normal"
+        android:textSize="10.0dip" />
+
+    <Button
+        android:id="@+id/btn_more"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1.0"
+        android:background="@drawable/bg_bottom_bar_item"
+        android:drawableTop="@drawable/ic_tab_more"
+        android:text="更多"
+        android:textColor="@color/nav_bar_item_normal"
+        android:textSize="10.0dip" />
+
+</LinearLayout>

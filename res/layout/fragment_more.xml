@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8.0dip"
+        android:background="@drawable/bg_todo"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/more_user"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@null"
+            android:text="个人信息设置"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_16"
+            android:visibility="gone" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/split_line"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/more_favorite"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@null"
+            android:text="会议收藏夹"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_16" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/split_line" />
+
+        <Button
+            android:id="@+id/more_update"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@null"
+            android:text="检查新版本"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_16" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/split_line" />
+
+        <Button
+            android:id="@+id/more_about"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@null"
+            android:text="关于爱会议"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_16" />
+    </LinearLayout>
+
+</LinearLayout>

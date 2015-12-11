@@ -1,0 +1,5 @@
+{"urls":{"host":"http://210.44.48.182:8080/dagu/phone/",
+	"meeting":"http://210.44.48.182:8080/dagu/phone/meeting?id=17",
+	"files":"http://210.44.48.182:8080/dagu/phone/files",
+	"comments":"http://210.44.48.182:8080/dagu/phone/comments",
+	"comment":"http://210.44.48.182:8080/dagu/phone/comment"}}

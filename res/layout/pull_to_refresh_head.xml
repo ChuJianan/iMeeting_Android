@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60.0dip"
+        android:gravity="center_vertical" >
+
+        <LinearLayout
+            android:id="@+id/pull_to_refresh_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/head_tipsTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pull_to_refresh_pull_label"
+                android:textColor="@color/pulldownlistview_color"
+                android:textSize="17.0sp" />
+
+            <TextView
+                android:id="@+id/head_lastUpdatedTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/pulldownlistview_time_color"
+                android:textSize="12.0sp"
+                android:text="最近没有刷新"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/head_progressBar"
+            android:layout_width="@dimen/home_refreshing_progress_height"
+            android:layout_height="@dimen/home_refreshing_progress_height"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20.0dip"
+            android:layout_toLeftOf="@id/pull_to_refresh_layout"
+            android:indeterminate="true"
+            android:indeterminateDrawable="@drawable/home_refresh_loading"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/head_arrowImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20.0dip"
+            android:src="@drawable/pulltorefresh_arrow"
+            android:layout_toLeftOf="@id/pull_to_refresh_layout" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="6.0px"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/list_refresh_bottom" />
+    </RelativeLayout>
+
+</LinearLayout>

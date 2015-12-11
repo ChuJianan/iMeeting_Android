@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" /> 
+  <title> ${title} </title>
+  <style>
+  	body { font-size: 16px; }
+    span.title { font-size: 22px; font-weight: bold; }
+    span.place, span.type, span.name, span.post, span.brief { font-size: 18px; font-weight: bold; }
+    body div p { line-height: 2em; }
+  </style>
+ </head>
+
+ <body>
+  <div>
+    <div>
+    <p><span class="title">${title}</span></p>
+    <p><span class="place">会议地点：</span>${place}</p>
+    <p><span class="type">会议类型：</span>${ispublic}</p>
+    <div style="display:${person};">
+    <p><span class="name">姓名：</span>${name}</p>
+    <p><span class="post">职务：</span>${post}</p>
+    </div>
+    <p><span class="brief">会议简介：</span>${brief}</p>
+    <!--<p>主题图片：<img style="width:100%" src="${picture}" /></p>-->
+    </div>
+  </div>
+ </body>
+</html>

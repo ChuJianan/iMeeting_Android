@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="nav_bar_item_normal">#ff44454d</color>
+    
+    <color name="pulldownlistview_color">#ffa9a9a9</color>
+    <color name="pulldownlistview_time_color">#ff999999</color>
+    <color name="night_register_enter_edit_text_color">#ffa0a0a0</color>
+    <color name="register_enter_edit_text_color">#ff2b2b2b</color>
+    <color name="solid_white">#ffffffff</color>
+    <color name="detail_mobile_text_color">#ffdf6941</color>
+    <color name="common_banner_text_color">#ff2c2c2c</color>
+    <color name="home_logo_color">#ff404040</color>
+    <color name="list_item_title_color">#ff505050</color>
+    <color name="list_item_subtitle_color">#ff999999</color>
+    <color name="list_item_desc_color">#ff909090</color>
+    
+	<color name="white">#FFFFFF</color>
+	<color name="black">#000000</color>
+	<color name="gray">#808080</color>
+	<color name="red">#FF0000</color>
+	<color name="gold">#FFD700</color>
+	<color name="yellow">#FFFF00</color>
+	<color name="green">#008000</color>
+	<color name="blue">#0000FF</color>
+	<color name="purple">#800080</color>
+	<color name="pink">#FFC0CB</color>
+	<color name="orange">#FFA500</color>
+	<color name="lemonyellow">#FFFACD</color>
+	<color name="graywhite">#F5F5F5</color>
+	<color name="grayslate">#708090</color>
+	<color name="lightblue">#0083FF</color>
+	
+	<color name="tab_selected">#00C5FF</color>
+    <color name="tab_normal">#EAEAEA</color>
+	
+    <color name="full_transparent">#00000000</color>
+    <color name="half_transparent">#aa000000</color>
+    
+    <color name="bright_foreground_light">#ff000000</color>
+    <color name="bright_foreground_light_inverse">#ffffffff</color>
+    <color name="bright_foreground_light_disabled">#80000000</color>
+    
+    <color name="dim_foreground_light">#808080</color>
+    <color name="dim_foreground_light_disabled">#80323232</color>
+    <color name="dim_foreground_light_inverse">#ff006eaa</color>
+    <color name="dim_foreground_light_inverse_disabled">#80bebebe</color>
+    
+    <color name="head_text">#0e5986</color>
+    <color name="author_text">#0e5986</color>
+    
+    <color name="face_bg">#eef1f4</color>
+    
+    <color name="frame_button_text_nor">#033a5c</color>
+    <color name="frame_button_text_select">#FFFFFF</color>
+    
+    <color name="listitem_transparent">#00000000</color>
+    <color name="listitem_black">#ff000000</color>
+    <color name="listitem_white">#ffffffff</color>
+    <color name="listitem_blue">#0e5986</color>
+    <color name="listitem_gray">#ff9da19e</color>
+    <color name="listitem_green">#ffe3ffc6</color>
+    <color name="listitem_greenyellow">#ff87b869</color>
+    <color name="listitem_yellow">#fffaffbf</color>  
+</resources>

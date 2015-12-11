@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="file_menus">
+        <item>@id/menu_save</item>
+        <item>@id/menu_note</item>
+        <item>@id/menu_comment</item>
+        <item>@id/menu_share</item>
+    </integer-array>
+    <string-array name="ad_pos">
+        <item>ad_files_1</item>
+        <item>ad_files_2</item>
+        <item>ad_reader_1</item>
+        <item>ad_reader_2</item>
+        <item>ad_comments_1</item>
+        <item>ad_comments_2</item>
+        <item>ad_notes_1</item>
+        <item>ad_notes_2</item>
+        <item>ad_reader_1</item>
+        <item>ad_reader_2</item>
+        <item>ad_home_1</item>
+        <item>ad_home_2</item>
+        <item>ad_home_3</item>
+        <item>ad_home_4</item>
+    </string-array>
+</resources>

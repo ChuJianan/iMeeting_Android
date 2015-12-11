@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="white">#ffffffff</item>
+    <item type="drawable" name="register_enter_background">#fff9f9f9</item>
+    <item type="drawable" name="bg_detail_banner">#f7f6f6f6</item>
+    <item type="drawable" name="transparent">#00000000</item>
+    <item type="drawable" name="common_background">#fff9f9f9</item>
+    <item type="drawable" name="section_item_foreground">#30000000</item>
+</resources>

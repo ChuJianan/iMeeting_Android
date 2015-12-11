@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <dimen name="home_refreshing_layout_height">50.0dip</dimen>
+    <dimen name="home_refreshing_progress_height">18.0dip</dimen>
+    <dimen name="register_enter_banner_text_size">14.0sp</dimen>
+    <dimen name="register_enter_button_top">14.0dip</dimen>
+    <dimen name="enter_layout_height_2">46.0dip</dimen>
+    <dimen name="register_enter_edit_size">12.0sp</dimen>
+    <dimen name="register_enter_hint_margin_left">10.0dip</dimen>
+    <dimen name="register_enter_left_right_margin">18.0dip</dimen>
+    <dimen name="register_layout_height">60.0dip</dimen>
+    <dimen name="register_enter_bottom_text_size">12.0sp</dimen>
+    <dimen name="register_enter_center_size">13.0sp</dimen>
+    <dimen name="register_enter_center_margin_top">23.0dip</dimen>
+    <dimen name="register_enter_logo_margintop">48.0dip</dimen>
+    <dimen name="register_enter_back_size">38.0dip</dimen>
+    <dimen name="register_enter_header_height">200.0dip</dimen>
+    <dimen name="detail_banner_height">43.0dip</dimen>
+    <dimen name="detail_banner_icon_width">42.0dip</dimen>
+    <dimen name="detail_mobile_top_banner_height">40.0dip</dimen>
+    <dimen name="detail_mobile_banner_height">41.399994dip</dimen>
+    <dimen name="detail_banner_mobile_icon_width">41.0dip</dimen>
+    <dimen name="detail_banner_mobile_comment_textsize">12.0sp</dimen>
+    <dimen name="list_item_article_image_height">200.0dip</dimen>
+    <dimen name="list_item_article_title_size">19.0sp</dimen>
+    <dimen name="list_item_article_desc_size">14.0sp</dimen>
+    <dimen name="list_item_article_subtitle_size">12.0sp</dimen>
+    <dimen name="list_item_article_margin_common">10.0dip</dimen>
+    <dimen name="list_item_article_desc_margin">3.0dip</dimen>
+    <dimen name="list_item_article_image_margin">5.0dip</dimen>
+    <dimen name="list_item_article_margin_h">6.0dip</dimen>
+    <dimen name="list_item_article_margin_v">5.0dip</dimen>
+    <dimen name="list_item_article_row_height">104.0dip</dimen>
+    <dimen name="section_title_text_size">20.0sp</dimen>
+    <dimen name="section_title_banner_size">46.0dip</dimen>
+    <dimen name="home_top">46.0dip</dimen>
+    <dimen name="home_list_padding_top">63.0dip</dimen>
+    
+    <dimen name="channel_size">80.0dip</dimen>
+    <dimen name="channel_padding">5.0dip</dimen>
+    <dimen name="channel_icon_size">48.0dip</dimen>
+    <dimen name="channel_icon_padding">3.0dip</dimen>
+    
+    <dimen name="file_icon_size">48.0dip</dimen>
+    <dimen name="file_name_size">20.0dip</dimen>
+    <dimen name="file_size_size">16.0dip</dimen>
+    
+    <dimen name="file_list_item_padding">5.0dip</dimen>
+    
+	<!-- GreenDroid UI Tool -->
+    <dimen name="gd_arrow_offset">5dp</dimen>
+    
+    <!-- OSChina APP -->
+    <dimen name="text_size_32">32.0dip</dimen>
+    <dimen name="text_size_31">31.0dip</dimen>
+    <dimen name="text_size_30">30.0dip</dimen>
+    <dimen name="text_size_29">29.0dip</dimen>
+    <dimen name="text_size_28">28.0dip</dimen>
+    <dimen name="text_size_27">27.0dip</dimen>
+    <dimen name="text_size_26">26.0dip</dimen>
+    <dimen name="text_size_25">25.0dip</dimen>
+    <dimen name="text_size_24">24.0dip</dimen>
+    <dimen name="text_size_23">23.0dip</dimen>
+    <dimen name="text_size_22">22.0dip</dimen>
+    <dimen name="text_size_21">21.0dip</dimen>
+    <dimen name="text_size_20">20.0dip</dimen>
+    <dimen name="text_size_19">19.0dip</dimen>
+    <dimen name="text_size_18">18.0dip</dimen>
+    <dimen name="text_size_17">17.0dip</dimen>
+    <dimen name="text_size_16">16.0dip</dimen>
+    <dimen name="text_size_15">15.0dip</dimen>
+    <dimen name="text_size_14">14.0dip</dimen>
+    <dimen name="text_size_13">13.0dip</dimen>
+    <dimen name="text_size_12">12.0dip</dimen>
+    <dimen name="text_size_11">11.0dip</dimen>
+    <dimen name="text_size_10">10.0dip</dimen>
+    <dimen name="text_size_9">9.0dip</dimen>
+    <dimen name="text_size_8">8.0dip</dimen>
+    <dimen name="text_size_7">7.0dip</dimen>
+    
+    <dimen name="space_30">30.0dip</dimen>
+    <dimen name="space_29">29.0dip</dimen>
+    <dimen name="space_28">28.0dip</dimen>
+    <dimen name="space_27">27.0dip</dimen>
+    <dimen name="space_26">26.0dip</dimen>
+    <dimen name="space_25">25.0dip</dimen>
+    <dimen name="space_24">24.0dip</dimen>
+    <dimen name="space_23">23.0dip</dimen>
+    <dimen name="space_22">22.0dip</dimen>
+    <dimen name="space_21">21.0dip</dimen>
+    <dimen name="space_20">20.0dip</dimen>
+    <dimen name="space_19">19.0dip</dimen>
+    <dimen name="space_18">18.0dip</dimen>
+    <dimen name="space_17">17.0dip</dimen>
+    <dimen name="space_16">16.0dip</dimen>
+    <dimen name="space_15">15.0dip</dimen>
+    <dimen name="space_14">14.0dip</dimen>
+    <dimen name="space_13">13.0dip</dimen>
+    <dimen name="space_12">12.0dip</dimen>
+    <dimen name="space_11">11.0dip</dimen>
+    <dimen name="space_10">10.0dip</dimen>
+    <dimen name="space_9">9.0dip</dimen>
+    <dimen name="space_8">8.0dip</dimen>
+    <dimen name="space_7">7.0dip</dimen>
+    <dimen name="space_6">6.0dip</dimen>
+    <dimen name="space_5">5.0dip</dimen>
+    <dimen name="space_4">4.0dip</dimen>
+    <dimen name="space_3">3.0dip</dimen>
+    <dimen name="space_2">2.0dip</dimen>
+    <dimen name="space_1">1.0dip</dimen>
+</resources>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_listitem_top" >
+
+        <ImageView
+            android:id="@+id/meeting_image"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="5dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/img_image_loading" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/meeting_image"
+            android:orientation="vertical"
+            android:padding="8dp" >
+
+            <TextView
+                android:id="@+id/meeting_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3.0dip"
+                android:maxLines="2"
+                android:text="2013年中古股权大会是什么什么大会"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3.0dip"
+                android:layout_marginRight="5.0dip" >
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="11.0dip"
+                    android:layout_height="11.0dip"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_meeting_time_black" />
+
+                <TextView
+                    android:id="@+id/meeting_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="3.0dip"
+                    android:layout_toRightOf="@id/imageView1"
+                    android:text="TextView"
+                    android:textColor="@color/black"
+                    android:textSize="12.0sp" >
+                </TextView>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3.0dip"
+                android:layout_marginRight="5.0dip" >
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="11.0dip"
+                    android:layout_height="11.0dip"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_meeting_place_black" />
+
+                <TextView
+                    android:id="@+id/meeting_place"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="3.0dip"
+                    android:layout_toRightOf="@id/imageView2"
+                    android:text="TextView"
+                    android:textColor="@color/black"
+                    android:textSize="12.0sp" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/bg_listitem_bottom"
+        android:focusable="false"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_listitem_favorite" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/transparent"
+                android:focusable="false"
+                android:text="已有"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_12" />
+
+            <TextView
+                android:id="@+id/join_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/transparent"
+                android:focusable="false"
+                android:text="10"
+                android:textColor="@color/red"
+                android:textSize="@dimen/text_size_12" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/transparent"
+                android:focusable="false"
+                android:text="人报名"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_12" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="3dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/transparent"
+                android:focusable="false"
+                android:text="发布于"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/text_size_12" />
+
+            <TextView
+                android:id="@+id/publish_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/transparent"
+                android:focusable="false"
+                android:text="今天10:00"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_12" />
+
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_listitem_flip" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>
